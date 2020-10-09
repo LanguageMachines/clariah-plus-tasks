@@ -87,3 +87,11 @@ Changes with respect to the earlier plan:
     Cluster, KNAW
 * Ko van der Sloot has been an indispensible asset for this task hitherto, but has now retired. Maarten van Gompel takes
     on maintainance and support of his software developed as part of this task (libfolia, foliautils).
+
+## Related tasks
+
+This task is needed for:
+* Frog (T139)
+* FLAT (T062)
+* PICCL
+
