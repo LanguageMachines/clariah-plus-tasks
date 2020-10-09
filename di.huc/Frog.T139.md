@@ -2,7 +2,7 @@
 
 **ID**: T139
 
-**Author:** Maarten van Gompel, Iris Hendrickx, Antal van den Bosch
+**Author:** Maarten van Gompel (original authors of previous version were also: Iris Hendrickx, Antal van den Bosch)
 
 **Introduction:**
 
