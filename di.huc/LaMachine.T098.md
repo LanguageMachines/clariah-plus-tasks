@@ -99,3 +99,4 @@ Due to the ongoing nature of this task, milestones are often defined as the task
 * Increased estimated PM from 6 to 9 (the officially allocated 3PM is very insufficient!)
 * Much more elaborate description
 * Added various dependencies of LaMachine as deliverables
+* Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities

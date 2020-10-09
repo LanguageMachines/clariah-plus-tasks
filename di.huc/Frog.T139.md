@@ -106,6 +106,7 @@ as bugs emerge and are fixed.
 * This task has entered a new stage and has been revised now lead developer Ko van der Sloot has retired. Almost all of the earlier deliverables have been completed and further maintenaince is now guaranteed by Maarten van Gompel.
 * Milestone 1 (Frog v0.20) has been completed; this was a main deliverable in the previous version of this task.
 * DeepFrog is new
+* Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
 
 ## Related tasks
 
