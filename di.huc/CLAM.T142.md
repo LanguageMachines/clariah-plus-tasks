@@ -41,15 +41,15 @@ This is an ongoing support and development task that assures:
 
 ## Deliverables
 
-* Software: [CLAM](https://github.com/proycon/clam)
-* [Documentation](https://clam.readthedocs.io/)
+1. ``(T142D1)`` Software: [CLAM](https://github.com/proycon/clam)
+    * ``(T142D1.1)`` [Documentation](https://clam.readthedocs.io/)
 
 ## Milestones
 
 Due to the ongoing nature of this task, milestones are often defined as the task is ongoing and completed in short development
- cycles.
+ cycles. There are therefore no future milestones scheduled yet at this point.
 
-* [CLAM v3.0](https://github.com/proycon/clam/milestone/9) - October 2019 **(COMPLETED)** - Features a new modernized web interface with a better end-user experience
+1. ``(T142M1)`` [CLAM v3.0](https://github.com/proycon/clam/milestone/9) - October 2019 **(COMPLETED)** - Features a new modernized web interface with a better end-user experience
 
 ## Changes
 

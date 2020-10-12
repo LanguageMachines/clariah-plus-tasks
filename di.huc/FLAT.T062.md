@@ -43,30 +43,33 @@ requests take precedence when interest from within CLARIAH seems low.
 
 ## Deliverables
 
-* Software: [FLAT](https://github.com/proycon/flat)
-    * Resolution of [flat#138: Syntactic Movement Support](https://github.com/proycon/flat/issues/138) **(COMPLETED)**
-    * Resolution of [flat#84](https://github.com/proycon/flat/issues/84): Facilities for FoLiA relations have to be implemented **(COMPLETED)**
+1. ``(T062D1)`` Software: [FLAT](https://github.com/proycon/flat)
     * Potential deliverables that are currently dismissed:
         * [flat#111](https://github.com/proycon/flat/issues/111) - Improved syntax editing interface
         * [flat#113](https://github.com/proycon/flat/issues/113) - Dual-document view
         * [flat#112](https://github.com/proycon/flat/issues/112) - Inter-annotator agreement interface
         * [flat#135](https://github.com/proycon/flat/issues/135) - Complete refactoring and migration to a newer more modern
             frontend
-* Software: [foliadocserve](https://github.com/proycon/foliadocserve) - The backend for FLAT
-* Documentation: FLAT
-    * [Administration Guide](https://flat.readthedocs.io/en/latest/administration_guide.html)
-    * [User Guide](https://flat.readthedocs.io/en/latest/user_guide.html)
-    * [Installation Guide](https://flat.readthedocs.io/en/latest/installation_guide.html)
+    * ``(T062D1.1)`` Documentation: [Administration Guide](https://flat.readthedocs.io/en/latest/administration_guide.html)
+    * ``(T062D1.2)`` Documentation: [User Guide](https://flat.readthedocs.io/en/latest/user_guide.html)
+    * ``(T062D1.3)`` Documentation: [Installation Guide](https://flat.readthedocs.io/en/latest/installation_guide.html)
+* ``(T062D2)`` Software: [foliadocserve](https://github.com/proycon/foliadocserve) - The backend for FLAT
+* ``(T062D3)`` Service: [FLAT installation](https://flat.cls.ru.nl) at CLST, Radboud University, Nijmegen
 
 ## Milestones
 
-No milestones scheduled yet due to higher priorities and under-allocation on other tasks.
+No new milestones scheduled yet due to higher priorities and under-allocation on other tasks.
+
+* ``(T062M1)`` - [FLAT v0.9.0](https://github.com/proycon/flat/milestone/16) - (September 2019, **COMPLETED**) This release introduces relation support and finishes support for syntactic movement.
+    * [flat#138: Syntactic Movement Support](https://github.com/proycon/flat/issues/138) **(COMPLETED)**
+    * [flat#84](https://github.com/proycon/flat/issues/84): Facilities for FoLiA relations have to be implemented **(COMPLETED)**
 
 ## Changes
 
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
-    Cluster, KNAW
-* Merged this task with other FLAT tasks, the allocated PMs however only suffice for a subpart. I explicitly listed proposed enhancements that will probably **not** be implemented (unless priorities/funding changes)
+    Cluster, KNAW. A FLAT installation and supported at CLST.
+* Merged this task with other FLAT tasks (T063,T064,Txx1,T096), the allocated PMs however only suffice for a subpart. I explicitly listed proposed enhancements that will probably **not** be implemented (unless priorities/funding changes)
+* More explicit deliverables and milestones
 
 ## Related tasks
 

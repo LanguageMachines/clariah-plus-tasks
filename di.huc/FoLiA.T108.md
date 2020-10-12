@@ -57,34 +57,42 @@ between two participants)
 
 ## Deliverables
 
-1. [FoLiA Documentation and Reference Guide](https://folia.readthedocs.io/)
-    * [folia#43](https://github.com/proycon/folia/issues/43) Completely revised FoLiA documentation, turn into more formal specification **(COMPLETED)**
-    * [folia#46](https://github.com/proycon/folia/issues/46) Proper support for data provenance logging **(COMPLETED)**
-    * [folia#51](https://github.com/proycon/folia/issues/51) Increases expressivity for multi-word annotations **(COMPLETED)**
-2. [FoLiA Schemas and Specification](https://github.com/proycon/folia)
-3. FoLiA Library for Python: [FoLiAPy](https://github.com/proycon/foliapy)
-4. FoLiA Library for C++: [libfolia](https://github.com/LanguageMachines/libfolia)
-3. FoLiA Library for Rust: [folia-rust](https://github.com/proycon/folia-rust)
-5. [FoLiA Tools](https://github.com/proycon/foliatools) (Assorted command-line tools for FoLiA, Python-based)
-6. [FoLiA Utilities](https://github.com/LanguageMachines/foliautils) (Assorted command-line tools for FoLiA, C++)
+1. ``(T108D1)`` Documentation: [FoLiA Documentation and Reference Guide](https://folia.readthedocs.io/)
+2. ``(T108D2)`` Data: [FoLiA Schemas and Specification](https://github.com/proycon/folia)
+3. ``(T108D3)`` Software: FoLiA Library for Python: [FoLiAPy](https://github.com/proycon/foliapy)
+    * ``(T108D3.1)`` Documentation: [Extensive documentation including API reference](https://foliapy.readthedocs.io/)
+4. ``(T108D4)`` Software: FoLiA Library for C++: [libfolia](https://github.com/LanguageMachines/libfolia)
+    * ``(T108D4.1)`` Documentation: API reference
+5. ``(T108D5)`` Software: FoLiA Library for Rust: [folia-rust](https://github.com/proycon/folia-rust)
+    * ``(T108D5.1)`` Documentation: [API reference](https://docs.rs/folia/)
+6. ``(T108D6)`` Software: [FoLiA Tools](https://github.com/proycon/foliatools) (Assorted command-line tools for FoLiA, Python-based)
+7. ``(T108D7)`` Software: [FoLiA Utilities](https://github.com/LanguageMachines/foliautils) (Assorted command-line tools for FoLiA, C++)
+8. ``(T108D8)`` Software: [FoLiA profiler for CLARIN Switchboard/weblicht](https://github.com/weblicht/profiler/pull/3)
+9. ``(T108D9)`` Software: [Piereling Webservice](https://github.com/proycon/piereling) - A webservice to convert various
+   document formats from/to FoLiA. Builds upon foliatools and foliautils.
+10. ``(T108D10)`` Service: [Piereling Webservice](https://webservices.cls.ru.nl/piereling) deployed at CLST.
 
 ## Milestones
 
 Due to the ongoing nature of this task, milestones are often defined as the task is ongoing and completed in short development
 cycles.
 
-* [FoLiA v2.0](https://github.com/proycon/folia/milestone/9) - Early 2019 **(COMPLETED)** - FoLiA v2.0 is a major update of the FoLiA format, introducing various changes, most notably support for provenance data and completely renewed documentation.
+1. ``(T108M1)`` [FoLiA v2.0](https://github.com/proycon/folia/milestone/9) - Early 2019 **(COMPLETED)** - FoLiA v2.0 is a major update of the FoLiA format, introducing various changes, most notably support for provenance data and completely renewed documentation.
+    * [folia#43](https://github.com/proycon/folia/issues/43) Completely revised FoLiA documentation, turn into more formal specification
+    * [folia#46](https://github.com/proycon/folia/issues/46) Proper support for data provenance logging
+    * [folia#51](https://github.com/proycon/folia/issues/51) Increases expressivity for multi-word annotations
 
 ## Changes
 
 Changes with respect to the earlier plan:
 
 * More extensive description and motivation of the task
+* More explicit deliverables and milestones
 * Marked various earlier deliverables and milestones as completed
 * The FoLiA library for Rust is a new addition, and of a slightly more experimental nature. In this library we learn from
     insights adopted over the years and aim for a more high-performance library.
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
-    Cluster, KNAW
+    Cluster, KNAW. The webservice deployments, however, stay at CLST.
 * Ko van der Sloot has been an indispensible asset for this task hitherto, but has now retired. Maarten van Gompel takes
     on maintainance and support of his software developed as part of this task (libfolia, foliautils).
 

@@ -60,35 +60,37 @@ by visits to its website and github page (see [our report](https://applejack.sci
 
 ### Frog
 
-* Software: [Frog](https://github.com/LanguageMachines/frog)
+1. ``(T139aD1)`` Software: [Frog](https://github.com/LanguageMachines/frog)
 	* Resolution of [frog#54](https://github.com/LanguageMachines/frog/issues/54) **(COMPLETED)**
-* [Documentation](https://frognlp.readthedocs.io/)
-* Software: [ucto](https://github.com/proycon/ucto) - The tokeniser used by frog
-* Software: [python-ucto](https://github.com/proycon/python-ucto) - A Python binding for ucto
-* Software: [python-frog](https://github.com/proycon/python-frog) - A Python binding for Frog
-* Software/Webservice: [Frog webservice (CLAM-based)](https://github.com/proycon/clamservices)
+    * ``(T139aD1.1)`` [Documentation](https://frognlp.readthedocs.io/)
+    * ``(T139aD1.2)`` Software: [python-frog](https://github.com/proycon/python-frog) - A Python binding for Frog
+    * ``(T139aD1.3)`` Software: [Frog webservice (CLAM-based)](https://github.com/proycon/clamservices)
+2. ``(T139aD2)`` Software: [ucto](https://github.com/proycon/ucto) - The tokeniser used by frog
+    * ``(T139aD2.1)`` Documentation
+    * ``(T139aD2.2)`` Software: [python-ucto](https://github.com/proycon/python-ucto) - A Python binding for ucto
+    * ``(T139aD2.3)`` Software: [Ucto webservice (CLAM-based)](https://github.com/proycon/clamservices)
+3. ``(T139aD3)`` Service: [Frog Webservice](https://webservices.cls.ru.nl/) deployed at CLST
+4. ``(T139aD4)`` Service: [Ucto Webservice](https://webservices.cls.ru.nl/) deployed at CLST
 
 ### DeepFrog
 
-1. Software: [DeepFrog](https://github.com/proycon/deepfrog), featuring:
-    * Models (also usable independently of the DeepFrog tool in e.g. pytorch)
-        * a part-of-speech model for Dutch using the CGN tagset
-        * a lemmatisation model for Dutch
-        * a Named Entity Recognition model
-    * Training pipelines for training the models
-    * FoLiA input and output support
-    * Distribution in LaMachine
-    * DeepFrog webservice: An extra webservice and web-interface around the new software, suitable for the CLARIN/CLARIAH infrastructure
-2. Paper: Describing the new models and comparing them with the current Frog,
+1. ``(T139bD1)`` Software: [DeepFrog](https://github.com/proycon/deepfrog)
+    * ``(T139bD1.1)`` Documentation
+    * ``(T139bD1.2)`` Training pipelines for training the models
+    * ``(T139bD1.3)`` DeepFrog webservice: An extra webservice and web-interface around the new software, suitable for the CLARIN/CLARIAH infrastructure
+2. ``(T139bD2)`` Models (also usable independently of the DeepFrog tool in e.g. pytorch)
+    * a part-of-speech model for Dutch using the CGN tagset
+    * a lemmatisation model for Dutch
+    * a Named Entity Recognition model
+2. ``(T139bD3)`` Paper: Describing the new models and comparing them with the current Frog,
    to be published either at a conference or journal.
-3. Documentation
 
 ## Milestones
 
 ### Frog
 
-* [Frog v0.20](https://github.com/LanguageMachines/frog/milestone/1) - Spring 2020 - Outcome of the [redesign
-   effort](https://github.com/LanguageMachines/frog/issues/54). **(COMPLETED)** - This milestone addressed the previous
+* ``(T139aM1)`` Software: [Frog v0.20](https://github.com/LanguageMachines/frog/milestone/1) - Spring 2020 **(COMPLETED)** - Outcome of the [redesign
+   effort](https://github.com/LanguageMachines/frog/issues/54) - This milestone addressed the previous
    plan of this task in which we planned a fundamental re-design of Frog to reduce complexity, increase maintainability, be more flexible, and speed things up. The  implementation has been partially completed and while performance gains have achieved in certain regards, other new developments cancel this out again.
 
 Due to the support character of this task, no further Frog milestones are planned in advance. New releases will be done
@@ -96,17 +98,18 @@ as bugs emerge and are fixed.
 
 ### DeepFrog
 
-1. Exploration stage towards finding possible solutions for each of the components **(COMPLETED)**
-2. Implementation stage **(COMPLETED)**
-3. Evaluation stage
-4. Revision stage
+1. ``(T139bM1)`` Exploration stage towards finding possible solutions for each of the components **(COMPLETED)**
+2. ``(T139bM2)`` Implementation stage (end 2020)
+3. ``(T139bM3)`` Evaluation stage (spring 2021)
+4. ``(T139bM4)`` Revision stage (summer 2021)
 
 ## Changes
 
 * This task has entered a new stage and has been revised now lead developer Ko van der Sloot has retired. Almost all of the earlier deliverables have been completed and further maintenaince is now guaranteed by Maarten van Gompel.
 * Milestone 1 (Frog v0.20) has been completed; this was a main deliverable in the previous version of this task.
 * DeepFrog is new
-* Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
+* Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities.
+    The webservice deployments, however, stay at CLST.
 
 ## Related tasks
 

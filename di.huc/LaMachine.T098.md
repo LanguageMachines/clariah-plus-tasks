@@ -72,31 +72,36 @@ Current use of LaMachine can be tracked in our statistical report: https://apple
 
 **Participants**: Maarten van Gompel (DI, KNAW)
 
-**Actually allocated PMs:** 3PM  **(This is not enough for proper support and maintenance!!)**
+**Actually allocated PMs:** 3PM  **(This is not enough for proper support and maintenance and has already been used up!!)**
 
 ## Deliverables
 
-* LaMachine software: [LaMachine](https://github.com/proycon/LaMachine)
-* Docker image with a default subset of software: [LaMachine docker](https://hub.docker.com/r/proycon/lamachine/)
-* Vagrant/Virtualbox image with a default subset of software: [LaMachine VM image](https://app.vagrantup.com/proycon/boxes/lamachine/)
-* Documentation: [LaMachine](https://github.com/proycon/LaMachine/blob/master/README.md)
-* Portal software: [Labirinto](https://github.com/proycon/labirinto)
-* Recipes for Frog and dependencies for Homebrew: [LaMachine Homebrew recipes](https://github.com/fkarsdorp/homebrew-lamachine)
-* CodemetaPy software: [codemetapy](https://github.com/proycon/codemetapy) - A tool to convert software metadata between
-    different formats, use dby LaMachine. This is our contribution to the codemeta project
+1. ``(T098D1)`` Software: [LaMachine](https://github.com/proycon/LaMachine)
+    * ``(T098D1.1)`` [Documentation](https://github.com/proycon/LaMachine/blob/master/README.md)
+    * ``(T098D1.2)`` [Website](https://proycon.github.io/LaMachine)
+    * ``(T098D1.3)`` Software Image: Docker image with a default subset of software: [LaMachine docker](https://hub.docker.com/r/proycon/lamachine/)
+    * ``(T098D1.4)`` Software image: Vagrant/Virtualbox image with a default subset of software: [LaMachine VM image](https://app.vagrantup.com/proycon/boxes/lamachine/)
+2. ``(T098D2)`` Software: [Labirinto](https://github.com/proycon/labirinto) - Powers the portal website inside LaMachine
+3. ``(T098D3)`` Software: Recipes for Frog and dependencies for Homebrew: [LaMachine Homebrew recipes](https://github.com/fkarsdorp/homebrew-lamachine)
+4. ``(T098D4)`` Software: [CodemetaPy](https://github.com/proycon/codemetapy) - A tool to convert software metadata between
+    different formats, used by LaMachine. This is our contribution to the codemeta project
+5. ``(T098D5)`` Service: [LaMachine deployment](https://webservices.cls.ru.nl) at CLST (Radboud University, Nijmegen), hosting a wide variety of services.
 
 ## Milestones
 
 Due to the ongoing nature of this task, milestones are often defined as the task is ongoing and completed in short development
- cycles.
+ cycles. At this stage, the following milestones are open:
 
-* [Authentication Milestone](https://github.com/proycon/LaMachine/milestone/11) - [LaMachine#171](https://github.com/proycon/LaMachine/issues/171) - Integration of a CLARIN-compatible authentication solution (aimed at Spring 2021)
-* [Testing Milestone](https://github.com/proycon/LaMachine/milestone/12) - [LaMachine#182](https://github.com/proycon/LaMachine/issues/182) - Integration of webservice/webapp testing/monitoring facilities (Late 2020, begin 2021)
-* If other CLARIAH partners are interested, integration of their software would make another milestone
+1. ``(T098M1)`` [Authentication Milestone](https://github.com/proycon/LaMachine/milestone/11) - [LaMachine#171](https://github.com/proycon/LaMachine/issues/171) - Integration of a CLARIN-compatible authentication solution (aimed at Spring 2021)
+2. ``(T098M2)`` [Testing Milestone](https://github.com/proycon/LaMachine/milestone/12) - [LaMachine#182](https://github.com/proycon/LaMachine/issues/182) - Integration of webservice/webapp testing/monitoring facilities (Late 2020, begin 2021)
+
+If other CLARIAH partners are interested, integration of their software would make another milestone.
 
 ## Changes
 
 * Increased estimated PM from 6 to 9 (the officially allocated 3PM is very insufficient!)
 * Much more elaborate description
+* More explicit deliverables and milestones
 * Added various dependencies of LaMachine as deliverables
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
+  A comprehensive LaMachine intallation hosting various webservices is retained and supported at CLST.
