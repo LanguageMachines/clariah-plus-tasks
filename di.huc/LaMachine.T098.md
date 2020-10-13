@@ -106,3 +106,8 @@ If other CLARIAH partners are interested, integration of their software would ma
 * Added various dependencies of LaMachine as deliverables
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
   A comprehensive LaMachine intallation hosting various webservices is retained and supported at CLST.
+
+## References
+
+* M. van Gompel and I. Hendrickx (2019). LaMAchine: A meta-distribution for NLP software. Selected papers from the
+    CLARIN Annual Conference 2018. pp 214-226 - https://ep.liu.se/ecp/159/022/ecp18159022.pdf

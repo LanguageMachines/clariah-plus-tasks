@@ -103,3 +103,10 @@ This task is needed for:
 * FLAT (T062)
 * PICCL
 
+## References
+
+* M. van Gompel (2019). FoLiA: Format for Linguistic Annotation - Documentation and Reference Guide. Language and Speech Technoogy Technical Report Series 19-01. Radboud University - https://folia.readthedocs.io
+* M. van Gompel, K. van der Sloot, M. Reynaert and A. van den Bosch (2017). FoLiA in Practice: The infrastructure of a
+    Linguistic Annotation Format. In: CLARIN in the Low Countries. pp 71-82 - http://www.jstor.org/stable/j.ctv3t5qjk.13
+* M. van Gompel (2014). FoLiA: Format for Linguistic Annotation - Documentation and Reference Guide. Language and Speech Technoogy Technical Report Series 14-01. Radboud University
+* M. van Gompel and M. Reynaert (2013).  FoLiA: A practical XML Format for Linguistic Annotation - a descriptive and comparative study. Computational Linguistics in the Netherlands Journal. - http://clinjournal.org/sites/clinjournal.org/files/05-vanGompel-Reynaert-CLIN2013.pdf

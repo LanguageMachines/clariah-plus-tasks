@@ -113,7 +113,7 @@ as bugs emerge and are fixed.
 
 ## Related tasks
 
-This task heavily depends on T108 FoLiA. It also relates to T096 LaMachine for de distribution and T142 CLAM for the webservices.
+This task heavily depends on T108 FoLiA. It also relates to T096 LaMachine for distribution and T142 CLAM for the webservices.
 
 ## References
 

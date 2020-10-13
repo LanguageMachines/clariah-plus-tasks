@@ -58,3 +58,7 @@ Changes with respect to the earlier plan:
 * Added completed CLAM v3.0 milestone (which was not explicitly planned as such before)
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
     Cluster, KNAW
+
+## References
+
+* M. van Gompel (2018). CLAM Documentation. Language and Speech Technoogy Technical Report Series 18-03. Radboud University - https://clam.readthedocs.io
