@@ -46,8 +46,7 @@ This is an ongoing support and development task that assures:
 
 ## Milestones
 
-Due to the ongoing nature of this task, milestones are often defined as the task is ongoing and completed in short development
- cycles. There are therefore no future milestones scheduled yet at this point.
+Due to the ongoing nature of this task, milestones are often defined as the task is ongoing, on the basis of reports from users, and completed in short development cycles. There are therefore no future milestones scheduled yet at this point.
 
 1. ``(T142M1)`` [CLAM v3.0](https://github.com/proycon/clam/milestone/9) - October 2019 **(COMPLETED)** - Features a new modernized web interface with a better end-user experience
 

@@ -26,7 +26,8 @@ in the scope of CLARIAH/CLARIN:
 * CLAM; a variety of CLAM-based webservices to various software is offered
 * PICCL
 * gecco (valkuil)
-* Various Automatic Speech Recognition projects developed at CLST, Radboud University Nijmegen, often powered by kaldi
+* Various Automatic Speech Recognition projects developed at CLST, Radboud University Nijmegen, often powered by kaldi.
+    In collaboration also with Stichting Open Spraaktechnologie.
 
 Additionaly, we ship a large number of well-known Python libraries/tools (spaCy,pytorch,transformers), 3rd party NLP tools
 (CoreNLP, Freeling, Moses, Kaldi). Which software will be installed is configurable on a per-instance basis.
@@ -92,8 +93,8 @@ Current use of LaMachine can be tracked in our statistical report: https://apple
 Due to the ongoing nature of this task, milestones are often defined as the task is ongoing and completed in short development
  cycles. At this stage, the following milestones are open:
 
-1. ``(T098M1)`` [Authentication Milestone](https://github.com/proycon/LaMachine/milestone/11) - [LaMachine#171](https://github.com/proycon/LaMachine/issues/171) - Integration of a CLARIN-compatible authentication solution (aimed at Spring 2021)
-2. ``(T098M2)`` [Testing Milestone](https://github.com/proycon/LaMachine/milestone/12) - [LaMachine#182](https://github.com/proycon/LaMachine/issues/182) - Integration of webservice/webapp testing/monitoring facilities (Late 2020, begin 2021)
+1. ``(T098M1)`` [Testing Milestone](https://github.com/proycon/LaMachine/milestone/12) - [LaMachine#182](https://github.com/proycon/LaMachine/issues/182) - Integration of webservice/webapp testing/monitoring facilities (Late 2020, begin 2021)
+2. ``(T098M2)`` [Authentication Milestone](https://github.com/proycon/LaMachine/milestone/11) - [LaMachine#171](https://github.com/proycon/LaMachine/issues/171) - Integration of a CLARIN-compatible authentication solution (aimed at Spring 2021)
 
 If other CLARIAH partners are interested, integration of their software would make another milestone.
 
