@@ -50,6 +50,10 @@ Due to the ongoing nature of this task, milestones are often defined as the task
 
 1. ``(T142M1)`` [CLAM v3.0](https://github.com/proycon/clam/milestone/9) - October 2019 **(COMPLETED)** - Features a new modernized web interface with a better end-user experience
 
+## Progress Reports
+
+Detailed progression of this task is logged as part of our [regular progress reports](https://github.com/LanguageMachines/releasereport/tree/master/reports) .
+
 ## Changes
 
 Changes with respect to the earlier plan:
@@ -58,6 +62,7 @@ Changes with respect to the earlier plan:
 * Added completed CLAM v3.0 milestone (which was not explicitly planned as such before)
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities
     Cluster, KNAW
+
 
 ## References
 

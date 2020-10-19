@@ -65,6 +65,10 @@ No new milestones scheduled yet due to higher priorities and under-allocation on
     * [flat#135](https://github.com/proycon/flat/issues/135) - Complete refactoring and migration to a newer more modern
         frontend
 
+## Progress Reports
+
+Detailed progression of this task is logged as part of our [regular progress reports](https://github.com/LanguageMachines/releasereport/tree/master/reports) .
+
 ## Changes
 
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities

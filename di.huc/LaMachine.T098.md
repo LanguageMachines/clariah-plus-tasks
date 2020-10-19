@@ -87,6 +87,8 @@ Current use of LaMachine can be tracked in our statistical report: https://apple
 4. ``(T098D4)`` Software: [CodemetaPy](https://github.com/proycon/codemetapy) - A tool to convert software metadata between
     different formats, used by LaMachine. This is our contribution to the codemeta project
 5. ``(T098D5)`` Service: [LaMachine deployment](https://webservices.cls.ru.nl) at CLST (Radboud University, Nijmegen), hosting a wide variety of services.
+4. ``(T098D6)`` Software: [Lamastats](https://github.com/proycon/lamastats) - Simple usage statistics for services
+   included in LaMachine, through log analysis
 
 ## Milestones
 
@@ -97,6 +99,10 @@ Due to the ongoing nature of this task, milestones are often defined as the task
 2. ``(T098M2)`` [Authentication Milestone](https://github.com/proycon/LaMachine/milestone/11) - [LaMachine#171](https://github.com/proycon/LaMachine/issues/171) - Integration of a CLARIN-compatible authentication solution (aimed at Spring 2021)
 
 If other CLARIAH partners are interested, integration of their software would make another milestone.
+
+## Progress Reports
+
+Detailed progression of this task is logged as part of our [regular progress reports](https://github.com/LanguageMachines/releasereport/tree/master/reports) .
 
 ## Changes
 

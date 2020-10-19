@@ -63,12 +63,15 @@ by visits to its website and github page (see [our report](https://applejack.sci
 1. ``(T139aD1)`` Software: [Frog](https://github.com/LanguageMachines/frog)
 	* Resolution of [frog#54](https://github.com/LanguageMachines/frog/issues/54) **(COMPLETED)**
     * ``(T139aD1.1)`` [Documentation](https://frognlp.readthedocs.io/)
-    * ``(T139aD1.2)`` Software: [python-frog](https://github.com/proycon/python-frog) - A Python binding for Frog
-    * ``(T139aD1.3)`` Software: [Frog webservice (CLAM-based)](https://github.com/proycon/clamservices)
+    * ``(T139aD1.2)`` Models: [frogdata](https://github.com/LanguageMachines/frogdata) - Trained models for Frog
+    * ``(T139aD1.3)`` Software: [python-frog](https://github.com/proycon/python-frog) - A Python binding for Frog
+    * ``(T139aD1.4)`` Software: [Frog webservice (CLAM-based)](https://github.com/proycon/clamservices)
 2. ``(T139aD2)`` Software: [ucto](https://github.com/proycon/ucto) - The tokeniser used by frog
     * ``(T139aD2.1)`` Documentation
-    * ``(T139aD2.2)`` Software: [python-ucto](https://github.com/proycon/python-ucto) - A Python binding for ucto
-    * ``(T139aD2.3)`` Software: [Ucto webservice (CLAM-based)](https://github.com/proycon/clamservices)
+    * ``(T139aD2.2)`` Models: [uctodata](https://github.com/LanguageMachines/frogdata) - Rule-based configurations for
+        ucto for various languages
+    * ``(T139aD2.3)`` Software: [python-ucto](https://github.com/proycon/python-ucto) - A Python binding for ucto
+    * ``(T139aD2.4)`` Software: [Ucto webservice (CLAM-based)](https://github.com/proycon/clamservices)
 3. ``(T139aD3)`` Service: [Frog Webservice](https://webservices.cls.ru.nl/) deployed at CLST
 4. ``(T139aD4)`` Service: [Ucto Webservice](https://webservices.cls.ru.nl/) deployed at CLST
 
@@ -103,6 +106,14 @@ as bugs emerge and are fixed.
 3. ``(T139bM3)`` Evaluation stage (spring 2021)
 4. ``(T139bM4)`` Revision stage (summer 2021)
 
+## Progress Reports
+
+Detailed progression of this task is logged as part of our [regular progress reports](https://github.com/LanguageMachines/releasereport/tree/master/reports) .
+
+## Related tasks
+
+This task heavily depends on T108 FoLiA. It also relates to T096 LaMachine for distribution and T142 CLAM for the webservices.
+
 ## Changes
 
 * This task has entered a new stage and has been revised now lead developer Ko van der Sloot has retired. Almost all of the earlier deliverables have been completed and further maintenaince is now guaranteed by Maarten van Gompel.
@@ -110,10 +121,6 @@ as bugs emerge and are fixed.
 * DeepFrog is new
 * Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities.
     The webservice deployments, however, stay at CLST.
-
-## Related tasks
-
-This task heavily depends on T108 FoLiA. It also relates to T096 LaMachine for distribution and T142 CLAM for the webservices.
 
 ## References
 
