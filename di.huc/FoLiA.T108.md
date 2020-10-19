@@ -81,6 +81,11 @@ cycles.
     * [folia#43](https://github.com/proycon/folia/issues/43) Completely revised FoLiA documentation, turn into more formal specification
     * [folia#46](https://github.com/proycon/folia/issues/46) Proper support for data provenance logging
     * [folia#51](https://github.com/proycon/folia/issues/51) Increases expressivity for multi-word annotations
+2. ``(T108M2)`` [FoLiA v3.0](https://github.com/proycon/folia/milestone/13) - This is a hypothetical future milestone that would  propose changes to FoLiA for better alignment with the CLARIAH infrastructure; these tasks are not defined yet and need to arise from discussion (in e.g. the CLARIAH Interest Groups) and practical experience. Possible solutions could be a new serialisation form that integrates nicely into the world of linked open data, and that deploy the FoLiA paradigm on top of other existing standards (web annotations perhaps?).
+
+## Progress Reports
+
+Detailed progression of this task is logged as part of our [regular progress reports](https://github.com/LanguageMachines/releasereport/tree/master/reports) .
 
 ## Changes
 
