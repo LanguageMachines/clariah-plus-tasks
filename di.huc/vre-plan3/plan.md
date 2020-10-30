@@ -319,7 +319,7 @@ Black edges are simple links.
     by LaMachine.
 * Nodes with a gray background are developed outside of CLARIAH WP3
 
-![services.png](Service interoperability)
+![Services](services.png)
 
 
 ### Deliverables
