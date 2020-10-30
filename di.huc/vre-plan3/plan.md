@@ -1,5 +1,12 @@
 # WP3 Virtual Research Environment Plan 3
 
+```
+Maarten van Gompel
+DI, KNAW Humanities Cluster
+
+Revision 1.1 - October 2020
+```
+
 ## Introduction
 
 The term Virtual Research Environment (VRE) is usually surrounded by
@@ -38,6 +45,11 @@ out some concerns I had, mostly regarding the highly ambitious nature and
 doubts whether it would be practically feasible. I also mentioned at the time, that a
 comparable effort was undertaken before and had failed, the TTNWW project, and
 that it was important to draw lessons from that.
+
+Alongside the initial VRE endeavours, I wrote a [plan for LaMachine
+v2](https://github.com/proycon/LaMachine/blob/master/lamachine_v2_plan.md) and its connection to the VRE. This current
+plan for the VRE can be considered a logical continuation of that earlier plan and in fact reiterates a lot of what was
+said back then.
 
 Not withstanding the efforts of the participating
 developers, the [first VRE
@@ -296,17 +308,6 @@ Might be considered if it is still maintained and the relevant partners are invo
 * [MTAS](https://github.com/schemreier/eng_ASR) (Meertens) - ``Tf`` - Corpus Search (developed in the scope of Nederlab)
 * [CoBaLT](https://github.com/INL/COBALT) (INT) - ``T`` - Corpus Annotation environment
 
-I have limited the overview above to tools that are available as web-based services in some form, but I do want to
-emphasise that many tools can also be run on the command line, and that this is often even the preferred form for many users
-and does exclude tools from being succesfully used in the VRE. There are some notable tools which are not available as a
-webservice or webapplication, but deserve to be mentioned and considered:
-
-* [Nederlab Enrichment Pipeline](https://github.com/proycon/nederlab-pipeline) (RUN) - ``LF`` - NLP pipeline for the linguistic enrichment of historical dutch, as developed in the scope of the Nederlab project. This is a pipeline that invokes various other tools.
-* [VU Reading Pipeline](https://github.com/cltl/vu-rm-pip3) (VU) - NLP pipeline generating various semantic interpretations. This distributes and invokes various other tools developed at the VU. It used the NAF format for interoperability.
-
-We also excluded tools that consist primarily of a desktop GUI and can therefore not be easily interfaced with through
-automated means.
-
 A schematic overview of the interoperability between these services is provided below. The interpretation of the schema is as follows:
 
 * Solid edges represent functionality already implemented
@@ -320,6 +321,27 @@ Black edges are simple links.
 * Nodes with a gray background are developed outside of CLARIAH WP3
 
 ![Services](services.png)
+
+I have limited the overview above to tools that are available as web-based services in some form, but I do want to
+emphasise that many tools can also be run on the command line or as software libraries, and that this is often even the
+preferred form for many users and does exclude tools from being succesfully used in the VRE. There are some notable
+tools which are not available as a webservice or webapplication, but deserve to be mentioned and considered:
+
+* [Nederlab Enrichment Pipeline](https://github.com/proycon/nederlab-pipeline) (RUN) - ``LF`` - NLP pipeline for the linguistic enrichment of historical dutch, as developed in the scope of the Nederlab project. This is a pipeline that invokes various other tools.
+* [VU Reading Pipeline](https://github.com/cltl/vu-rm-pip3) (VU) - NLP pipeline generating various semantic interpretations. This distributes and invokes various other tools developed at the VU. It used the NAF format for interoperability.
+
+We also excluded tools that consist primarily of a desktop GUI and can therefore not be easily interfaced with in
+an automated fashion.
+
+When we look at the interoperability landscape that emerges on a lower-level within a maximised
+LaMachine installation, we see that there are a wide variety of third party tools, libraries and programming languages
+are at the disposal of the user. Aside from included CLARIAH software, we name notable third party tools and libraries such as SciPy, Scikit-learn, pytorch, TensorFlow, huggingface tranformers, R, Julia, Kaldi (ASR), Moses (MT), CoreNLP, spaCY, etc...
+
+It is this level that we consider to already form a lower-level Virtual Research Environment which is actively used in
+the field by many reseachers and developers. This kind of VRE is more akin to a traditional specialized Linux
+distribution or comparable to a scientific meta-distribution like [Anaconda](https://www.anaconda.com). As mentioned
+before, we believe it is fair to demand a certain amount of technical skills from users, rather than providing elaborate
+high-level user interfaces for tasks which do not easily lend themselves for that.
 
 
 ### Deliverables
@@ -421,10 +443,69 @@ be made available for the implementation my proposal.
 At this point, I want to add that LaMachine has been severely underallocated PMs, as we were granted
 only half of what we proposed, and even what we proposed has been surpassed already. I'm juggling many projects at the same
 time and reassigning priorities on the go with a great amount of flexibility, so this hasn't been a major problem, but
-it is something to be aware of from an accountability perspective.
+it is something to be aware of from an accountability perspective. The excess work that has gone into LaMachine directly
+benefits in this proposal
 
 The plan I proposed here is more of a logical continuation of my existing endeavours, as such its implementation can
 start almost immediately, which I understood was an important factor. However, the scope of this project is still fairly
 big, so it is not something that can be finished before the end of the year, but would continue well into the next one.
+
+The planning can be roughly divided into the following phases, I have tried to provide an initial time estimate:
+
+1. **Preparation**  (3 to 6 weeks) - Initial planning. This includes this report and reaching out to CLARIAH partners for
+   input, which can possibly be facilitated by the new interest groups. It also includes fine-tuning use-cases.
+2. **Implementation** (2 to 4 months) - Implementation and testing of all proposed functionality.
+3. **Documentation** (3 to 4 weeks) - Documentation for end-users (screencast videos and more)
+4. **Evaluation** (1 to 2 weeks) - Final feedback from the community
+
+If we want to ensure a user-centric approach, then I think it is important we have additional help for phases 1 and 4
+from someone with a wide connection with the research community and a good capability to assess the different needs of the
+researchers. I do not think I personally qualify sufficiently in that regard.
+
+## Relation with the larger CLARIN/CLARIAH infrastructure
+
+This proposal suggests a bottom-up effort extending existing work and interconnecting WP3 components. It does not aim to be
+prescriptive or propose solutions which should be adopted CLARIAH-wide. That, I think, is firmly in the scope of the
+new CLARIAH Interest Groups and CLAAS, whereas the scope of the VRE has been reduced.
+
+To conclude, I want to sketch how some of this relates to the larger CLARIN/CLARIAH/CLAAS infrastructure, and especially
+clarify situations where the solutions I propose may seem at odds with larger CLARIN/CLARIAH initiatives:
+
+* **Federated Authentication** - There is a big drive in CLARIN/CLARIAH for federated authentication. This makes sense
+    and is something I fully support in principle but in practice the infrastructure for this is often not mature enough, especially
+    concerning automated access and user delegation. In VRE workflow experiments conducted before, it was for example found
+    that deployments such as AutoSearch, which were deployed behind proper federated authentication mechanism, could not
+    be properly accessed by the scripts, and an extra deployment had to be conducted to bypass the authentication. This
+    is also the reasons that almost none of the services in LaMachine and hosted in Nijmegen make use of federated
+    authentication yet but rely on simpler mechanisms. It is still our intention to replace this with a proper
+    federated authentication solution as soon when all problems are solved and the infrastructure is in place.
+* **Software Metadata** - For software metadata, the proposed infrastructure here makes use of
+    [CodeMeta](https://codemeta.github.io), this is a third-party international initiative for the scientific community.
+    They aim to provide a so-called crosswalk to convert from software metadata vocabulary in different schemes that are used in
+    the field. This allows automatically harvesting sofware metadata from the repositories in which the software is
+    deposited and converting it to a single codemta representation that used linked open data (JSON-LD). I contributed a tool called [codemetapy](https://github.com/proycon/codemetapy) to automate such conversions, and LaMachine orchestrates this to compile software metadata for software it installs. I am of the strong opinion that sofware metadata should be kept as close to the source as possible.
+    This is in contrast with some of the initiatives in WP3 to deliver CMDI metadata for software, which were largelely
+    manual efforts. The disadvantage here is that such metadata becomes quickly outdated and no longer describes the tool
+    accurately, as there are no clear update or governance mechanisms in place. The merit of the manually-compiled data, however,
+    is in the fact that it contains very purpose-specific (CLARIAH-specific) metadata, whereas the codemeta scheme
+    is limited to more basic software metadata. The linked open data nature of codemeta does make it very suitable for extension
+    with what whatever vocabulary is desired, so my hope is that we can eventually come to a synthesis.
+* **CMDI Metadata** - In general, you will notice no role for CMDI metadata in this proposal, although it is a CLARIN
+    technology. This is not because of
+    objections against CMDI as such, I like the way it is set up, but more that there has been no user demand for it
+    in the tooling I have developed over the years. Even in situations where I did implement some degree of CMDI support, like FoLiA, I find that users often prefer use to the less-sophisticated native metadata scheme that FoLiA offers as a fallback.
+
+Last but not least, I want to reemphasise that the main bottlenecks for this project are two-fold, but both come down to
+collaboration and communication:
+
+1. Lack of actual use-cases or user demand for the proposed cases. The documentation phase may compensate this to some
+   extent.
+2. Non-interoperability on a lower-level between data formats and APIs of CLARIAH WP3 tools. Whenever tools do not
+   employ the same data format, conversions are needed. Experience has shown that such data conversion is often
+   trivialised and not assigned sufficient priority, and there is not enough attention for the many cases in which it
+   can fail. Within CLARIAH WP3, the attempts to implement [a convertor between FoLiA and
+   NAF](https://github.com/cltl/NafFoLiApy) serve as an example of this; they never properly got implemented and
+   evaluated. This is a show-stopper for delivering interoperability between the tools of the respective CLARIAH
+   partners which a VRE can't remedy either.
 
 
