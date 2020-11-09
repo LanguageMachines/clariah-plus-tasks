@@ -353,7 +353,9 @@ this project and I can't speak for CLARIAH partners and commit them to something
 To keep a user-centric approach, all deliverables will be tied to a **user story**, a high-level description
 of desired functionality from a user perspective. These are still a bit contrived because I am the one describing them
 based on my (limited) perspective of hypothetical users. It still remains important to assess demand from actual users,
-or ideally have users come with their own views!
+or ideally have users come with their own views! More specific use cases will be collected in a [separate
+document](https://github.com/LanguageMachines/clariah-plus-tasks/blob/master/di.huc/vre-plan3/usecases.md).
+
 
 1. **User story:** When presented with output files of a service in a web interface, the researcher wants to be able to
    immediately take the output and feed it as input to another related webservice for further
