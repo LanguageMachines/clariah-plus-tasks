@@ -47,18 +47,18 @@ text mining to categorise and cluster complaints, to automatically determine the
 complaints, to extract patterns and to identify risk cases. This project turned out to be a good test case of
 the applicability and usefulness of LaMachine as a standalone research environment. As the complaint
 data is highly sensitive, it could not leave the secure servers of the health inspectorate and was stored in
-an environment without internet access. We needed to bring the software to the data via a shared folder"*
+an environment without internet access. We needed to bring the software to the data via a shared folder"* [1]
 * **What functionality was desired and was missing?** The main functionality to bring the full environment was already present, but
 the ability to have a shared dataspace between the host and VM was insufficiently developed prior to this project.
-* **What tools/services are used in this project?** *We used many of the available tools in LaMachine within this project: Frog for linguistic annotation of the textual content of the complaint and the scikit-learn Python package for classification, T-scan for
-feature extraction in the form of text characteristics and colibri-core for n-gram analysis.*
+* **What tools/services are used in this project?** *"We used many of the available tools in LaMachine within this project: Frog for linguistic annotation of the textual content of the complaint and the scikit-learn Python package for classification, T-scan for
+feature extraction in the form of text characteristics and colibri-core for n-gram analysis."* [1]
 * **Is this in the scope of the VRE project?** yes, bringing tools to the data fits the scope.
 * **What needed to be implemented?** Better integration between host and VM, with regards to shared data space.
 * **How has this been evaluated?** The researcher has succesfully used the research environment in a restricted
     network-less environment in which she was only offered a Windows machine, and processed privacy-sensitive data
     on-site with various tools.
-* **References (issue/ticket link, publications):** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution
-    for NLP software. CLARIN Annual Conference 2018.
+* **References (issue/ticket link, publications):**
+    1. M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution for NLP software. CLARIN Annual Conference 2018.
 
 
 ### Research Environment for Workshop: Cataloguing of Textual Cultural Heritage Objects
@@ -69,9 +69,9 @@ Industry’ to stimulate collaboration between industry and academia. The indust
 a problem and a team of researchers from different backgrounds and universities collaborate to come
 up with solutions. We participated in the 2019 edition on the case study by the Dutch Royal Library
 who wanted to investigate automatic methods for cataloguing of textual cultural heritage objects, in this
-particular case a large collection of digital dissertations."*
+particular case a large collection of digital dissertations."* [1]
 * **What functionality was desired and was missing?** None, LaMachine was taken as an out-of-the-box solution.
-* **What tools/services are used in this project?** Various *"common scientific data-related packages"*.
+* **What tools/services are used in this project?** Various *"common scientific data-related packages"* [1].
 * **Is this in the scope of the VRE project?** yes, offering a common research enviroment for workshop participants fits
     the scope
 * **What needed to be implemented?** Nothing
@@ -88,6 +88,6 @@ certainly also applies also to the installation as a whole in the SURFsara conte
 partitioning, formatting and mounting of (virtual) drives and setting up user accounts on the shared VM, all of which
 require some system administration skills and are too context-specific to be within the scope of LaMachine. LaMachine
 was convenient and speeded up writing code as the most common scientific data-related packages are already present in
-LaMachine."*
-* **References (issue/ticket link, publications):** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution
-    for NLP software. CLARIN Annual Conference 2018.
+LaMachine."* [1]
+* **References (issue/ticket link, publications):**
+   1. M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution for NLP software. CLARIN Annual Conference 2018.
