@@ -10,16 +10,16 @@ Generic use-cases are already part of the [VRE plan](plan.md) and described as *
 
 ## Template
 
-* For the researcher to fill:
-    * **Researcher names & affiliations:**
-    * **Research question/project:** (short description)
-    * **What functionality is desired and currently missing?**
-* For us to fill:
-    * **Is this in the scope of the VRE project?**
-    * **What needs to be implemented?**
-    * **How can we evaluate this?**
-    * **Issue/ticket Link:**
+* **Researcher names & affiliations:**
+* **Research question/project:** (short description)
+* **What functionality is desired and currently missing?**
+* **What tools/services are used in this project?**
+* **Is this in the scope of the VRE project?**
+* **What needs to be implemented?**
+* **How can we evaluate this?**
+* **References (issue/ticket link, publications):**
 
+The first questions are mostly for the researchers to fill, please provide the text in italics if it's a direct quote from the user.
 
 ## Open Use Cases
 
@@ -32,7 +32,61 @@ should be dealt with by upstream projects instead.
 
 ## Satisfied Use Cases
 
-These are use cases that are already satisfied:
+These is a selection of notable use cases that are already satisfied:
+
+### Tools to the data: Text Mining for Health Inspection
+
+* **Researcher names & affiliations:** Iris Hendrickx, Radboud University
+* **Research question/project:**
+*"We participated in a small Dutch national project titled “Text mining for Inspection: an exploratory
+study on automatic analysis of health care complaints” led by IQhealthcare42, the scientific centre for
+healthcare quality of RadboudUMC hospital. This project took place at the Dutch Health Inspectorate
+and aimed to apply text mining techniques to health care complaints that have been registered at the
+national contact point for health care (Landelijk Meldpunt Zorg) We investigated the usefulness of
+text mining to categorise and cluster complaints, to automatically determine the severity of incoming
+complaints, to extract patterns and to identify risk cases. This project turned out to be a good test case of
+the applicability and usefulness of LaMachine as a standalone research environment. As the complaint
+data is highly sensitive, it could not leave the secure servers of the health inspectorate and was stored in
+an environment without internet access. We needed to bring the software to the data via a shared folder"*
+* **What functionality was desired and was missing?** The main functionality to bring the full environment was already present, but
+the ability to have a shared dataspace between the host and VM was insufficiently developed prior to this project.
+* **What tools/services are used in this project?** *We used many of the available tools in LaMachine within this project: Frog for linguistic annotation of the textual content of the complaint and the scikit-learn Python package for classification, T-scan for
+feature extraction in the form of text characteristics and colibri-core for n-gram analysis.*
+* **Is this in the scope of the VRE project?** yes, bringing tools to the data fits the scope.
+* **What needed to be implemented?** Better integration between host and VM, with regards to shared data space.
+* **How has this been evaluated?** The researcher has succesfully used the research environment in a restricted
+    network-less environment in which she was only offered a Windows machine, and processed privacy-sensitive data
+    on-site with various tools.
+* **References (issue/ticket link, publications):** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution
+    for NLP software. CLARIN Annual Conference 2018.
 
 
+### Research Environment for Workshop: Cataloguing of Textual Cultural Heritage Objects
 
+* **Researcher names & affiliations:** Iris Hendrickx, Radboud University
+* **Research question/project:** *"The ICT-Research Platform Netherlands and NWO organise a yearly one-week workshop ‘ICT with
+Industry’ to stimulate collaboration between industry and academia. The industrial partner provides
+a problem and a team of researchers from different backgrounds and universities collaborate to come
+up with solutions. We participated in the 2019 edition on the case study by the Dutch Royal Library
+who wanted to investigate automatic methods for cataloguing of textual cultural heritage objects, in this
+particular case a large collection of digital dissertations."*
+* **What functionality was desired and was missing?** None, LaMachine was taken as an out-of-the-box solution.
+* **What tools/services are used in this project?** Various common scientific data-related packages.
+* **Is this in the scope of the VRE project?** yes, offering a common research enviroment for workshop participants fits
+    the scope
+* **What needed to be implemented?** Nothing
+* **How has this been evaluated?** LaMachine offered a convenient platform for a range of different explorations and
+experiments in
+the area of NLP and text mining. However, for some situations LaMachine, or rather Linux in general, was not a good fit
+for the audience of the workshop: for team members who did not have experience with a non-Windows environment, LaMachine
+was not a suitable or useful tool. The limit of LaMachine was also reached for members who wanted to use desktop text
+editors with a graphical user interface as this is not offered by LaMachine. Moreover, we did not manage to get
+X-forwarding working in the Ubuntu Linux VM and after a few attempts the team gave up on resolving this issue due to
+time pressure.  This, also demonstrates that fine-tuning the configuration of certain aspects of LaMachine, but
+especially beyond LaMachine, is beyond the reach of a data scientist without system administration skills. This
+certainly also applies also to the installation as a whole in the SURFsara context, which involved things like the
+partitioning, formatting and mounting of (virtual) drives and setting up user accounts on the shared VM, all of which
+require some system administration skills and are too context-specific to be within the scope of LaMachine. LaMachine
+was convenient and speeded up writing code as the most
+* **References (issue/ticket link, publications):** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution
+    for NLP software. CLARIN Annual Conference 2018.
