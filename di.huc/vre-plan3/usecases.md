@@ -71,11 +71,11 @@ up with solutions. We participated in the 2019 edition on the case study by the 
 who wanted to investigate automatic methods for cataloguing of textual cultural heritage objects, in this
 particular case a large collection of digital dissertations."*
 * **What functionality was desired and was missing?** None, LaMachine was taken as an out-of-the-box solution.
-* **What tools/services are used in this project?** Various common scientific data-related packages.
+* **What tools/services are used in this project?** Various *"common scientific data-related packages"*.
 * **Is this in the scope of the VRE project?** yes, offering a common research enviroment for workshop participants fits
     the scope
 * **What needed to be implemented?** Nothing
-* **How has this been evaluated?** LaMachine offered a convenient platform for a range of different explorations and
+* **How has this been evaluated?** *"LaMachine offered a convenient platform for a range of different explorations and
 experiments in
 the area of NLP and text mining. However, for some situations LaMachine, or rather Linux in general, was not a good fit
 for the audience of the workshop: for team members who did not have experience with a non-Windows environment, LaMachine
@@ -87,6 +87,7 @@ especially beyond LaMachine, is beyond the reach of a data scientist without sys
 certainly also applies also to the installation as a whole in the SURFsara context, which involved things like the
 partitioning, formatting and mounting of (virtual) drives and setting up user accounts on the shared VM, all of which
 require some system administration skills and are too context-specific to be within the scope of LaMachine. LaMachine
-was convenient and speeded up writing code as the most
+was convenient and speeded up writing code as the most common scientific data-related packages are already present in
+LaMachine."*
 * **References (issue/ticket link, publications):** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution
     for NLP software. CLARIN Annual Conference 2018.
