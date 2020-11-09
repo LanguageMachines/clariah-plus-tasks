@@ -20,8 +20,19 @@ Generic use-cases are already part of the [VRE plan](plan.md) and described as *
     * **How can we evaluate this?**
     * **Issue/ticket Link:**
 
-## Use Cases
 
+## Open Use Cases
+
+These are use cases that are still open:
+
+## Rejected Use Cases
+
+These are use cases that are have been rejected because they are either to big for the VRE scope, or too small and
+should be dealt with by upstream projects instead.
+
+## Satisfied Use Cases
+
+These are use cases that are already satisfied:
 
 
 
