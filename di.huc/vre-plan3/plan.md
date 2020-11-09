@@ -4,7 +4,7 @@
 Maarten van Gompel
 DI, KNAW Humanities Cluster
 
-Revision 1.1 - October 2020
+Revision 1.2 - 2020-11-09
 ```
 
 ## Introduction
@@ -359,23 +359,24 @@ or ideally have users come with their own views!
    immediately take the output and feed it as input to another related webservice for further
    processing or visualisation, by simple means such as a click. This allows manual user-mediated workflows.
     * **Deliverable Implementation:** [clam#52](https://github.com/proycon/clam/issues/52) - Implement the ability to forward output a CLAM service to the input of another. The foundation for this is already implemented. In CLAM I call these "forwarders". Solving this at the CLAM-level immediately benefits the large number of WP3 webservices that are powered by CLAM.
+    * **Deliverable Implementation:** [clam#95](https://github.com/proycon/clam/issues/95) - Implement the ability to obtain data despite authentication barriers, using unauthenticated one-time-download links and a pull mechanism.
     * **Deliverable Implementation:** [clam#86](https://github.com/proycon/clam/issues/86) - Implement a CLAM forwarder to the CLARIN switchboard. Users
         can in turn use the switchboard to select a tool for further processing.
     * Some such forwarders are already implemented, most notably the forwarder to FLAT from FoLiA-delivering services,
         and the forwarder to Autosearch as used in PICCL. The use of these existing forwarders, especially the latter, can be fairly trivially
         extended to more webservices.
-        * **Deliverable Implementation:** ``lamachine#xx1`` - Configure more webservices to forward to AutoSearch and FLAT where applicable
+        * **Deliverable Implementation:** [lamachine#185](https://github.com/proycon/LaMachine/issues/185) - Configure more webservices to forward to AutoSearch and FLAT where applicable
     * There are no forwarders yet for certain WP3 software by CLARIAH partners, though these services do allow data ingestion via a
         webservice endpoint, there is potential here so these should be written provided there are feasible use cases:
-        * **Deliverable Implementation:** ``clam#xx1`` - Implement a CLAM forwarder to GreTeL 4 (which supports plain
+        * **Deliverable Implementation:** [clam#96](https://github.com/proycon/clam/issues/96) - Implement a CLAM forwarder to GreTeL 4 (which supports plain
             text, CHAT, and possibly also FoLiA and TEI by now?). The feasibility of this still requires some investigation.
-        * **Deliverable Implementation:** ``clam#xx2`` - Implement a CLAM forwarder to PaQu. The feasibility of this still requires some investigation.
-        * **Deliverable Implementation:** ``lamachine#xx2`` - Configure more webservices to forward to GreTeL and PaQu where applicable
+        * **Deliverable Implementation:**  [clam#97](https://github.com/proycon/clam/issues/97)- Implement a CLAM forwarder to PaQu. The feasibility of this still requires some investigation.
+        * **Deliverable Implementation:** [lamachine#186](https://github.com/proycon/LaMachine/issues/186) - Configure more webservices to forward to GreTeL and PaQu where applicable
     * **User story**: A user has opened a FoLiA document in FLAT and wants to do further processing on the document using
         external services.
-        * **Deliverable Implementation:** ``flat#xx1`` - Implement a forwarding mechanism in FLAT (Note: FLAT is not CLAM-based so this is a different
+        * **Deliverable Implementation:** [flat#160](https://github.com/proycon/flat/issues/160) - Implement a forwarding mechanism in FLAT (Note: FLAT is not CLAM-based so this is a different
             implementation). This should support CLAM-services, AutoSearch, and possibly GreTeL and PaQu.
-        * **Deliverable Implementation:** ``lamachine#xx3`` - Configure FLAT to allow forwarding to certain FoLiA-accepting services and the CLARIN switchboard.
+        * **Deliverable Implementation:** [lamachine#187](https://github.com/proycon/LaMachine/issues/187) - Configure FLAT to allow forwarding to certain FoLiA-accepting services and the CLARIN switchboard.
     * **Recommendation:** WP3 partners should ideally offer the ability in their software to forward the user with the
         output data to other relevant webapplication/webservices. I would at least encourage everyone to implement
         support for forwarding to the CLARIN switchboard, this then opens up various other services.
@@ -396,10 +397,7 @@ or ideally have users come with their own views!
       configurable to allow to interface with remote services (i.e. not managed by the installation). In the current
       situation, there is still insufficient regard for this as most of the LaMachine installation is assumed to be
       self-sufficient.
-    * **Deliverable Implementation:** ``lamachine#xx4`` - Decentralisation: enhance the configurability of a LaMachine installation so services are not necessarily
-            part of the same installation but can also be remote.
-    * **Deliverable Implementation:** ``lamachine#xx5`` - Decentralisation: Improve the facilities for incorporating software metadata for services that are not
-            hosted by the LaMachine installation. This allows for the services to be presented on the portal page.
+    * **Deliverable Implementation:** [lamachine#188](https://github.com/proycon/LaMachine/issues/188) - Decentralisation: enhance the configurability of a LaMachine installation so services are not necessarily part of the same installation but can also be remote. Also improve the facilities for incorporating software metadata for services that are not hosted by the LaMachine installation. This allows for the services to be presented on the portal page.
 5. **User story:** A researcher wants to write scripts (or so-called interactive 'notebooks') and make direct use of software libraries developed in WP3, as well as popular third party libraries for data science.
     * This situation is handled by LaMachine (from a distribution/deployment perspective). The Jupyter Labs installation within it provides a higher-level interface as an alternative to direct command-line access, in this interface the user can make use of Jupyter Notebooks (for Python,R,julia), the IDE or a web-based terminal.
 6. **User story:** A researcher wants to run the virtual research environment locally on his own system; i.e. bring the tools to the data. For example because he/she works with privacy-sensitive data that rules out the use of any cloud services.
@@ -410,9 +408,9 @@ or ideally have users come with their own views!
    at what time, etc..
     * For most tools/services that deliver FoLiA this is already implemented, as it is an integral component of the format
         itself. For webservices that use CLAM, we have a good foundation that we can build upon to implement this.
-    * **Deliverable Implementation:** ``clam#xx3`` -  Ensure CLAM forwarders explicitly include metadata with provenance. This way we can ensure
+    * **Deliverable Implementation:** [clam#98](https://github.com/proycon/clam/issues/98) -  Ensure CLAM forwarders explicitly include metadata with provenance. This way we can ensure
         provenance data gets recorded as a series of CLAM tools is invoked (regardless of underlying data format).
-    * **Deliverable Implementation:**`` clam#xx4`` - Implement a simple visualisation so the end-user can actually view this provenance data. Currently only a raw XML
+    * **Deliverable Implementation:**  [clam#99](https://github.com/proycon/clam/issues/99)- Implement a simple visualisation so the end-user can actually view this provenance data. Currently only a raw XML
         view is provided.
 8. User story: A user wants to invoke a specific series of tools/services in an automated fashion, for a particular purpose. This allows automated non-user-mediated workflows.
     * This scenario was addressed by [the second VRE
@@ -448,15 +446,21 @@ benefits in this proposal
 
 The plan I proposed here is more of a logical continuation of my existing endeavours, as such its implementation can
 start almost immediately, which I understood was an important factor. However, the scope of this project is still fairly
-big, so it is not something that can be finished before the end of the year, but would continue well into the next one.
+big, so it is not something that can be finished before the end of the year, but would surely cover also the next one.
 
 The planning can be roughly divided into the following phases, I have tried to provide an initial time estimate:
 
 1. **Preparation**  (3 to 6 weeks) - Initial planning. This includes this report and reaching out to CLARIAH partners for
    input, which can possibly be facilitated by the new interest groups. It also includes fine-tuning use-cases.
 2. **Implementation** (2 to 4 months) - Implementation and testing of all proposed functionality.
-3. **Documentation** (3 to 4 weeks) - Documentation for end-users (screencast videos and more)
-4. **Evaluation** (1 to 2 weeks) - Final feedback from the community
+    * Relevant software milestones (in no particular order):
+        * [CLAM v3.1](https://github.com/proycon/clam/milestone/11)
+        * [FLAT v1.0](https://github.com/proycon/clam/milestone/17)
+        * [LaMachine v3.0](https://github.com/proycon/LaMachine/milestone/13)
+3. **Documentation** (3 to 4 weeks) - Documentation for end-users (screencast videos and more). We will attempt to
+   deliver on this during in the implementation stage where possible.
+4. **Evaluation** (1 to 2 weeks) - Final feedback from the community. Also here we attempt to work on an interative
+   fashion, showing implemented functionality to users and getting feedback as we move along.
 
 If we want to ensure a user-centric approach, then I think it is important we have additional help for phases 1 and 4
 from someone with a wide connection with the research community and a good capability to assess the different needs of the
