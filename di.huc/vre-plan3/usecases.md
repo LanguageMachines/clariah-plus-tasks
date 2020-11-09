@@ -58,7 +58,7 @@ feature extraction in the form of text characteristics and colibri-core for n-gr
     network-less environment in which she was only offered a Windows machine, and processed privacy-sensitive data
     on-site with various tools.
 * **References (issue/ticket link, publications):**
-    1. M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution for NLP software. CLARIN Annual Conference 2018.
+    * **[1]** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution for NLP software. CLARIN Annual Conference 2018.
 
 
 ### Research Environment for Workshop: Cataloguing of Textual Cultural Heritage Objects
@@ -90,4 +90,4 @@ require some system administration skills and are too context-specific to be wit
 was convenient and speeded up writing code as the most common scientific data-related packages are already present in
 LaMachine."* [1]
 * **References (issue/ticket link, publications):**
-   1. M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution for NLP software. CLARIN Annual Conference 2018.
+   * **[1]** M. van Gompel & I. Hendrickx (2018). LaMachine: A meta-distribution for NLP software. CLARIN Annual Conference 2018.
