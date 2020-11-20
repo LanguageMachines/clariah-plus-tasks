@@ -4,7 +4,7 @@
 Maarten van Gompel
 DI, KNAW Humanities Cluster
 
-Revision 1.2 - 2020-11-09
+Revision 1.2.1 - 2020-11-20
 ```
 
 ## Introduction
@@ -414,6 +414,7 @@ document](https://github.com/LanguageMachines/clariah-plus-tasks/blob/master/di.
         provenance data gets recorded as a series of CLAM tools is invoked (regardless of underlying data format).
     * **Deliverable Implementation:**  [clam#99](https://github.com/proycon/clam/issues/99)- Implement a simple visualisation so the end-user can actually view this provenance data. Currently only a raw XML
         view is provided.
+    * This user story and deliverables have a lower priority than the others.
 8. User story: A user wants to invoke a specific series of tools/services in an automated fashion, for a particular purpose. This allows automated non-user-mediated workflows.
     * This scenario was addressed by [the second VRE
       experiment](https://github.com/knaw-huc/clariah-wp3-vre-workflows) that focused on establishing certain
@@ -426,7 +427,7 @@ document](https://github.com/LanguageMachines/clariah-plus-tasks/blob/master/di.
         through a workflow via the web interfaces of the individual gears in the chain. However, once a particular workflow script is established, it is fairly
         easy to elevate it to a webservice through CLAM, making it available both to the less technical user and as a
         possible subworkflow in even larger workflows.
-    * I want to approach this cautiously and await actual use cases so we don't implement anything in vain, as this proved to be a problem in the past.
+    * I want to approach this cautiously and await actual use cases so we don't implement anything in vain, as this proved to be a problem in the past. This is therefore also assigned a somewhat lower priority.
 9. **User story:** A researcher wants to see what the VRE is capable of, what tools are connected, and learn how to make use
    of the infrastructure for his own research.
     * **Deliverable:** ``D2`` - Provide documentation for end-users, preferably and at least in the form of screencast videos demonstrating the various user stories above.
