@@ -7,7 +7,10 @@ services.png:
 plan.pdf:
 	pandoc -s -f gfm -H ../../style/header.sty -o plan.pdf plan.md
 
-clean:
-	rm services.pdf services.png plan.pdf
+pres.pdf:
+	pandoc -t beamer pres.md -o pres.pdf
 
-all: services.pdf services.png plan.pdf
+clean:
+	rm services.pdf services.png plan.pdf pres.pdf
+
+all: services.pdf services.png plan.pdf pres.pdf
