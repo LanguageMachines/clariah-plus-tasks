@@ -102,9 +102,9 @@ as bugs emerge and are fixed.
 ### DeepFrog
 
 1. ``(T139bM1)`` Exploration stage towards finding possible solutions for each of the components **(COMPLETED)**
-2. ``(T139bM2)`` Implementation stage (end 2020)
-3. ``(T139bM3)`` Evaluation stage (spring 2021)
-4. ``(T139bM4)`` Revision stage (summer 2021)
+2. ``(T139bM2)`` Implementation stage (on hold indefinitely)
+3. ``(T139bM3)`` Evaluation stage (on hold indefinitely)
+4. ``(T139bM4)`` Revision stage (on hold indefinitely)
 
 ## Progress Reports
 
@@ -116,6 +116,7 @@ This task heavily depends on T108 FoLiA. It also relates to T096 LaMachine for d
 
 ## Changes
 
+* Jan 2021: **The DeepFrog task is on hold as there seems to be no official budget/time for it and other priorities have taken precendence.**
 * This task has entered a new stage and has been revised now lead developer Ko van der Sloot has retired. Almost all of the earlier deliverables have been completed and further maintenaince is now guaranteed by Maarten van Gompel.
 * Milestone 1 (Frog v0.20) has been completed; this was a main deliverable in the previous version of this task.
 * DeepFrog is new
