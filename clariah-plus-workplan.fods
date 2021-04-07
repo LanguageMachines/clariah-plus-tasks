@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:initial-creator>Odijk, J.E.J.M. (Jan)</meta:initial-creator><dc:creator>proycon</dc:creator><meta:creation-date>2020-12-14T08:52:27</meta:creation-date><dc:date>2021-03-08T16:32:49.964998995</dc:date><meta:editing-duration>PT1H28M54S</meta:editing-duration><meta:generator>LibreOffice/7.1.1.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:editing-cycles>23</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="661" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">16.0300</meta:user-defined></office:meta>
+ <office:meta><meta:initial-creator>Odijk, J.E.J.M. (Jan)</meta:initial-creator><dc:creator>proycon</dc:creator><meta:creation-date>2020-12-14T08:52:27</meta:creation-date><dc:date>2021-04-07T11:44:34.662097503</dc:date><meta:editing-duration>PT1H31M12S</meta:editing-duration><meta:generator>LibreOffice/7.1.2.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:editing-cycles>25</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="661" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">16.0300</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -13,8 +13,8 @@
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Projectplanning">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">68</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">7</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">67</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
    <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">owH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAxAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpEdXBsZXg6Tm9uZQBQYWdlU2l6ZTpMZXR0ZXIAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmY=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">owH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAxAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpQYWdlU2l6ZTpMZXR0ZXIARHVwbGV4Ok5vbmUAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmY=</config:config-item>
    <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
    <config:config-item config:name="SyntaxStringRef" config:type="short">2</config:config-item>
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
@@ -499,10 +499,10 @@
   <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties style:font-name="Calibri"/>
   </style:style>
-  <style:style style:name="ce51" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce52" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border-left="0.74pt solid #000000" fo:border-right="0.74pt solid #000000" style:rotation-align="none" fo:border-top="none"/>
   </style:style>
-  <style:style style:name="ce52" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce53" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="no-wrap" fo:border-left="0.74pt solid #000000" style:direction="ltr" fo:border-right="0.74pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="1.76pt solid #000000" style:vertical-align="bottom" loext:vertical-justify="auto"/>
    <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0cm" style:writing-mode="page"/>
    <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Calibri" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
@@ -521,10 +521,10 @@
    <style:table-cell-properties fo:background-color="#cccccc" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="none" style:rotation-align="none"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce57" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce59" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#cccccc" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="none" style:rotation-align="none"/>
   </style:style>
-  <style:style style:name="ce58" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce60" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="none" style:rotation-align="none"/>
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
@@ -643,7 +643,7 @@
    <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0cm" style:writing-mode="page"/>
   </style:style>
   <style:style style:name="gr1" style:family="graphic">
-   <style:graphic-properties draw:marker-start="Arrowheads_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="1.599cm" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="hidden" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm" draw:caption-escape-direction="auto"/>
+   <style:graphic-properties draw:marker-start="Arrowheads_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="2.717cm" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="hidden" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm" draw:caption-escape-direction="auto"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:page-layout style:name="pm1">
@@ -687,9 +687,12 @@
    <style:text-properties fo:color="#000000" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Calibri" fo:font-size="11pt" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="WenQuanYi Zen Hei" style:font-size-asian="11pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Marathi" style:font-size-complex="11pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
-   <style:text-properties style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:color="#000000" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Calibri" fo:font-size="11pt" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="WenQuanYi Zen Hei" style:font-size-asian="11pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Marathi" style:font-size-complex="11pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T2" style:family="text">
+   <style:text-properties style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
    <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
  </office:automatic-styles>
@@ -710,7 +713,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-03-08">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="15:59:02.513342391">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-04-07">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="11:42:15.278416846">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -759,13 +762,13 @@
      <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
       <text:p>Project</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce52" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce53" office:value-type="string" calcext:value-type="string">
       <text:p>ID</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce52" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce53" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce52" table:content-validation-name="val2" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce53" table:content-validation-name="val2" office:value-type="string" calcext:value-type="string">
       <text:p>Category</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -777,14 +780,14 @@
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
       <text:p>Start date</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce52" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce53" office:value-type="string" calcext:value-type="string">
       <text:p>End date</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce27" office:value-type="string" calcext:value-type="string">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P2" svg:width="2.899cm" svg:height="2.917cm" svg:x="31.93cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.01cm">
        <dc:creator>p</dc:creator>
        <dc:date>2021-03-08T00:00:00</dc:date>
-       <text:p text:style-name="P1">Status for software deliverables uses the vocabulary from https://repostatus.org</text:p>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">Status for software deliverables uses the vocabulary from https://repostatus.org</text:span></text:p>
       </office:annotation>
       <text:p>Status</text:p>
      </table:table-cell>
@@ -803,28 +806,28 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>CLAM</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/CLAM.T142.pdf" xlink:type="simple">T142</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/CLAM.T142.pdf" xlink:type="simple">T142</text:a></text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Software</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>CLAM is software to build webservices and webapplication and is used by many NLP webservices in and beyond of CLARIN/CLARIAH</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q1 2019</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q4 2023</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
       <text:p>In progress</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>KNAW</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -936,28 +939,28 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>FoLiA</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/FoLiA.T108.pdf" xlink:type="simple">T108</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/FoLiA.T108.pdf" xlink:type="simple">T108</text:a></text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Software </text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>FoLiA is a format for linguistic annotation that is being used throughout CLARIAH, by both tools and data sets, and is an important facility to maintain for the future</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q1 2019</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q4 2023</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
       <text:p>In progress</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>KNAW</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce33" office:value-type="string" calcext:value-type="string">
@@ -1343,13 +1346,13 @@
      <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
       <text:p>FLAT</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/FLAT.T062.pdf" xlink:type="simple">T062</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/FLAT.T062.pdf" xlink:type="simple">T062</text:a></text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Software/ Service</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1364,7 +1367,7 @@
      <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
       <text:p>In progress</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>KNAW</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1594,13 +1597,13 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>Frog &amp; DeepFrog</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/Frog.T139.pdf" xlink:type="simple">T139</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/Frog.T139.pdf" xlink:type="simple">T139</text:a></text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Software</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1615,7 +1618,7 @@
      <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
       <text:p>In Progress</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>KNAW</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p>This task has entered a new stage and has been revised now lead developer Ko van der Sloot has retired. Almost all of the earlier deliverables have been completed and further maintenaince is now guaranteed by Maarten van</text:p><text:p>Gompel.</text:p>
@@ -2351,28 +2354,28 @@
      <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
       <text:p>LaMachine</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/LaMachine.T098.pdf" xlink:type="simple">T098</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/LaMachine.T098.pdf" xlink:type="simple">T098</text:a></text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Software</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce20" office:value-type="string" calcext:value-type="string">
       <text:p>LaMachine is the umbrella under which we make available a lot of our software. This task is a support and maintenance task</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q1 2019</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q4 2023</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
       <text:p>In progress</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>KNAW</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p>Increased estimated PM from 6 to 9 (the officially allocated 3PM is very insufficient!) </text:p><text:p> • Since 14 July 2020 - This task has moved from CLST, Radboud University Nijmegen to Digital Infrastructure, Humanities A comprehensive LaMachine intallation hosting various webservices is retained and supported at CLST.</text:p>
@@ -2480,16 +2483,16 @@
      <table:table-cell table:style-name="ce55" office:value-type="string" calcext:value-type="string">
       <text:p>T098D1.3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce58" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce60" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce58" table:content-validation-name="val2" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce60" table:content-validation-name="val2" office:value-type="string" calcext:value-type="string">
       <text:p>Deliverable</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce48" office:value-type="string" calcext:value-type="string">
       <text:p>Software Image</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce63" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://hub.docker.com/r/proycon/lamachine/" xlink:type="simple">Docker hub image with a default subset of software</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce63" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T3"><text:a xlink:href="https://hub.docker.com/r/proycon/lamachine/" xlink:type="simple">Docker hub image with a default subset of software</text:a></text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce22" office:value-type="float" office:value="2018" calcext:value-type="float">
       <text:p>2018</text:p>
@@ -2761,28 +2764,28 @@
      <table:table-cell table:style-name="ce9" office:value-type="string" calcext:value-type="string">
       <text:p>Virtual Research Environment (VRE)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/vre-plan3/plan.pdf" xlink:type="simple">T137</text:a></text:span></text:p>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T2"><text:a xlink:href="https://github.com/LanguageMachines/clariah-plus-tasks/raw/master/di.huc/vre-plan3/plan.pdf" xlink:type="simple">T137</text:a></text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1" office:value-type="string" calcext:value-type="string">
       <text:p>WP3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Service</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce20" office:value-type="string" calcext:value-type="string">
       <text:p>Development and coordination of the WP3 Virtual Research Environment</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Q4 2020</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>?</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce28" office:value-type="string" calcext:value-type="string">
       <text:p>In progress</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>KNAW</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce33" office:value-type="string" calcext:value-type="string">
@@ -2811,10 +2814,10 @@
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Deploy a LaMachine installation that is preconfigured for maximum</text:p><text:p>Interoperability between various WP3 services. This can be an</text:p><text:p>Extension of the current installation at CLST or a new one at HuC.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
-      <text:p>Q3 2020</text:p>
+      <text:p>Q4 2020</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
-      <text:p>Q3 2021</text:p>
+      <text:p>Q4 2021</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string">
       <text:p>In progress</text:p>
@@ -2841,10 +2844,10 @@
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string"><text:p>Provide documentation for end-users, preferably and at least in</text:p><text:p>the form of screencast videos demonstrating various user stories.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
-      <text:p>Q2 2021</text:p>
+      <text:p>Q3 2021</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
-      <text:p>Q3 2021?</text:p>
+      <text:p>Q4 2021</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce31" office:value-type="string" calcext:value-type="string">
       <text:p>Not started</text:p>
@@ -3009,17 +3012,17 @@ Proposed in the third CLARIAH WP3 VRE plan.</text:a></text:p>
      <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
       <text:p>PICCL</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>?</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val1"/>
-     <table:table-cell table:style-name="ce57" table:content-validation-name="val2"/>
-     <table:table-cell table:style-name="ce57" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val1"/>
+     <table:table-cell table:style-name="ce59" table:content-validation-name="val2"/>
+     <table:table-cell table:style-name="ce59" office:value-type="string" calcext:value-type="string">
       <text:p>Software</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce57" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce59" table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce33"/>
-     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce59"/>
      <table:table-cell table:style-name="ce33" office:value-type="string" calcext:value-type="string"><text:p>This task is not officially maintained by us, but was coordinated by Martin Reynaert. </text:p><text:p>What happened to the CLARIAH-PLUS successor tasks that might continue on this (T012? managed by</text:p><text:p>INT), is unclear to me.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1013"/>
@@ -3113,11 +3116,11 @@ Proposed in the third CLARIAH WP3 VRE plan.</text:a></text:p>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
     <table:table-row table:style-name="ro8">
-     <table:table-cell table:style-name="ce51" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce51" table:content-validation-name="val1"/>
-     <table:table-cell table:style-name="ce51" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce52" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce52" table:content-validation-name="val1"/>
+     <table:table-cell table:style-name="ce52" table:number-columns-repeated="5"/>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce51"/>
+     <table:table-cell table:style-name="ce52"/>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
     <table:table-row table:style-name="ro8" table:number-rows-repeated="1048484">
