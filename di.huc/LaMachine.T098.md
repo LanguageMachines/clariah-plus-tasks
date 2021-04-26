@@ -1,3 +1,7 @@
+# Important Note: This task description has moved to https://github.com/CLARIAH/clariah-plus-tasks/blob/master/wp3/knaw.huc/T098.LaMachine.md
+
+-----------------
+
 # Task: LaMachine: Maintenance, support and continued development
 
 **ID**: T098

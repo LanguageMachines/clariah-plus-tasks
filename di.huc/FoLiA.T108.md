@@ -1,3 +1,7 @@
+# Important Note: This task description has moved to https://github.com/CLARIAH/clariah-plus-tasks/blob/master/wp3/knaw.huc/T108.FoLiA.md
+
+-----------------
+
 # FoLiA: Maintenance, support, and continued development
 
 **ID**: T108

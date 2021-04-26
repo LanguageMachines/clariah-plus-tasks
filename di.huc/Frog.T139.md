@@ -1,3 +1,7 @@
+# Important Note: This task description has moved to https://github.com/CLARIAH/clariah-plus-tasks/blob/master/wp3/knaw.huc/T139.Frog.md
+
+-----------------
+
 # Frog & DeepFrog
 
 **ID**: T139
